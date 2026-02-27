@@ -2,7 +2,6 @@
 
 ⚠️ Dataset is not included due to size limitations.
 Download dataset from Kaggle and place it in /dataset folder.
-# 🧠 Brain Tumor Classification using EfficientNet-B0
 
 This project performs brain tumor classification from MRI images using **EfficientNet-B0** with **GradCAM visualization** for model explainability.
 
@@ -40,8 +39,10 @@ GradCAM is applied to visualize which regions influenced model predictions.
 
 brain-tumor-classification/
 │
-├── braintumour.ipynb      # Training + testing notebook
-├── README.md              # Project documentation
+├── braintumour.ipynb   # Training + testing notebook
+├── README.md           # Project documentation
+├── requirements.txt
+├── methodology.jpg
 
 ---
 
@@ -93,13 +94,29 @@ Benefits:
   - F1 Score
 
 ---
+📌 Output
+- Model predicts: Glioma, Meningioma, Pituitary Tumor, No Tumor
+- GradCAM heatmaps show important regions.
+
+---
 
 ## ▶️ How to Run
+1.Clone repository
+git clone https://github.com/your-username/brain-tumor-classification.git
+cd brain-tumor-classification
 
-1. Clone the repository
-2. Install dependencies:
-
-```bash
+2.Install dependencies
 pip install -r requirements.txt
-3.Open braintumour.ipynb
-4.Run all cells
+
+3.Download dataset
+Download the Brain Tumor MRI Dataset from Kaggle and place it inside the /dataset folder.
+
+4.Open notebook
+jupyter notebook
+Open:
+braintumour.ipynb
+
+5.Run all cells
+Run all cells sequentially to train and test the model.
+
+
