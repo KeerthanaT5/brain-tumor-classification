@@ -1,3 +1,5 @@
+⚠️ Dataset is not included due to size limitations.
+Download dataset from Kaggle and place it in /dataset folder.
 # 🧠 Brain Tumor Classification using EfficientNet-B0
 
 This project performs brain tumor classification from MRI images using **EfficientNet-B0** with **GradCAM visualization** for model explainability.
