@@ -21,7 +21,7 @@ GradCAM is applied to visualize which regions influenced model predictions.
 ---
 ## Methodology
 
-![Methodology](methodology.png)
+![Methodology](methodology.jpg)
 
 ## 📁 Project Structure
 
