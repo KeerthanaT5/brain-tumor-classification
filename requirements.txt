@@ -1,0 +1,6 @@
+torch
+timm
+opencv-python
+albumentations==1.4.3
+gradio
+numpy
