@@ -1,3 +1,5 @@
+## 🚀 Brain Tumor Classification using EfficientNet-B0
+
 ⚠️ Dataset is not included due to size limitations.
 Download dataset from Kaggle and place it in /dataset folder.
 # 🧠 Brain Tumor Classification using EfficientNet-B0
@@ -19,6 +21,17 @@ Transfer Learning is used to improve accuracy while reducing training time.
 GradCAM is applied to visualize which regions influenced model predictions.
 
 ---
+## 🧠 Tech Stack
+
+- Python
+- PyTorch
+- EfficientNet-B0
+- GradCAM
+- Jupyter Notebook
+- OpenCV
+
+---
+
 ## Methodology
 
 ![Methodology](methodology.jpg)
@@ -83,7 +96,10 @@ Benefits:
 
 ## ▶️ How to Run
 
-1. Install dependencies:
+1. Clone the repository
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+3.Open braintumour.ipynb
+4.Run all cells
