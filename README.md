@@ -19,6 +19,9 @@ Transfer Learning is used to improve accuracy while reducing training time.
 GradCAM is applied to visualize which regions influenced model predictions.
 
 ---
+## Methodology
+
+![Methodology](methodology.png)
 
 ## 📁 Project Structure
 
